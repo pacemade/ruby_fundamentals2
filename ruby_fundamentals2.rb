@@ -24,3 +24,14 @@ def is_even?(isit)
     return false
   end
 end
+
+# Exercise 4 -----------------------------------------------
+
+def more_8?(word)
+  size = word.size
+  if size >= 8
+    return true
+  else
+    return false
+  end
+end
