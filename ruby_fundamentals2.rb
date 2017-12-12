@@ -47,19 +47,23 @@
 # name = gets.chomp
 #
 # puts "Hi #{(greet_backwards(name))}#{(greet_backwards(name))}, welcome home!"
+#
+# # Exercise 6 ----------------------------------------------------
+#
+# puts "What is the temperature in Fahrenheit there?"
+#
+# temp = gets.to_i
+#
+# def convert(fahren)
+#   (fahren - 32) * 5 / 9
+# end
+#
+# final = convert(temp)
+#
+# puts "That would be #{final} degrees celsius!"
 
-# Exercise 6 ----------------------------------------------------
+# Exercise 7 --------------------------------------------------------
 
-puts "What is the temperature in Fahrenheit there?"
-
-temp = gets.to_i
-
-def convert(fahren)
-  (fahren - 32) * 5 / 9
+def wrap_text(word, wrap)
+  return "#{wrap}#{word}#{wrap}"
 end
-
-final = convert(temp)
-
-puts "That would be #{final} degrees celsius!"
-
-# C = (F - 32) x 5/9
