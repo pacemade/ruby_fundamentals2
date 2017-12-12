@@ -13,3 +13,14 @@ def negative?(neg)
    return false
   end
 end
+
+# Exercise 3 ---------------------------------------------
+
+def is_even?(isit)
+  isit = isit % 2
+  if isit == 0
+    return true
+  else
+    return false
+  end
+end
