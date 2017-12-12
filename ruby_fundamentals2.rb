@@ -35,3 +35,15 @@ def more_8?(word)
     return false
   end
 end
+
+# Exercise 5 ---------------------------------------------------
+
+def greet_backwards(back)
+  back = back.reverse.downcase
+end
+
+puts "Your name please"
+
+name = gets.chomp
+
+puts "Hi #{(greet_backwards(name))}#{(greet_backwards(name))}, welcome home!"
