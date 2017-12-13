@@ -76,8 +76,8 @@ def distance(person)
   return distance
 end
 
-def time(dist)
-  puts "How long (in minutes) did person 1 run take to run #{dist} metres?"
+def time(dist, person)
+  puts "How long (in minutes) did person #{person} run take to run #{dist} metres?"
   time = gets.to_f
   return time
 end
@@ -92,9 +92,9 @@ distance1 = distance(1)
 distance2 = distance(2)
 distance3 = distance(3)
 
-mins1 = time(distance1)
-mins2 = time(distance2)
-mins3 = time(distance3)
+mins1 = time(distance1, 1)
+mins2 = time(distance2, 2)
+mins3 = time(distance3, 3)
 
 speed1 = speed(distance1, mins1)
 speed2 = speed(distance2, mins2)
